@@ -83,6 +83,10 @@ padding-left: 5%;
 float: left;
 }
 
+.mySlides {
+width: 100%;
+}
+
 
 .ftop{
 padding-top: 40%;

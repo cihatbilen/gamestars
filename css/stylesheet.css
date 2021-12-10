@@ -6,7 +6,7 @@
 }
   .topnav a.logo{
   float: left;
-  font-size: 20px;
+  font-size: 20px;  
   text-align: center;
   padding: 0 ;
   margin: 0;
@@ -83,6 +83,10 @@ padding-left: 5%;
 float: left;
 }
 
+.mySlides {
+width: 100%;
+}
+
 
 .ftop{
 padding-top: 40%;
@@ -118,6 +122,16 @@ header span{
 
 
 .regel1 {
+	padding: 15px;
+	margin: none;
+}
+
+.regel2 {
+	padding: 15px;
+	margin: none;
+}
+
+.regel3 {
 	padding: 15px;
 }
 
@@ -275,13 +289,21 @@ footer{
 	background-color:  white;
 	border-radius: 2px;
 	font-size: 20px;
-	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
 	margin-right: 3px;
 	margin-bottom: 5px;
+
 }
 
+.f{
+  width: 35px;
+  height: 35px;
+}
+
+
+.footer-icons{
+}
 
 @media (max-width: 880px) {
 

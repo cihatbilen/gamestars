@@ -89,6 +89,7 @@ height: 750px;
 }
 
 
+
 .ftop{
 padding-top: -20%;
 }
@@ -121,9 +122,22 @@ header span{
 	color: white;
 }
 
+.merchg{
+  width: 500px;
+  height: 600px;
+  margin-left: 150px;
+}
 
 
+.items{
+  display:none;
+  position: absolute;
+}
 
+.disclaimer{
+  text-align: center;
+  font-size: 25px;
+}
 
 /* The footer is fixed to the bottom of the page */
 

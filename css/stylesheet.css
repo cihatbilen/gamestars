@@ -128,8 +128,45 @@ header span{
   margin-left: 150px;
 }
 
+.regel1 {
+	padding: 15px;
+	
+}
 
-.items{
+.regel2 {
+	padding: 15px;
+	
+}
+
+.regel3 {
+	padding: 15px;
+}
+
+.regel4 {
+	padding: 15px;
+}
+
+#games {
+	width: 900px;
+	height: 25px;
+	margin-left: 10px;
+}
+
+.p1 {
+	margin-left: 10px;
+}
+
+.inputcircles {
+	margin-left: 10px;
+	
+	
+}
+
+
+.p2 {
+	margin-left: 10px;
+
+  .items{
   display:none;
   position: absolute;
 }

@@ -140,6 +140,26 @@ header span{
 	padding: 15px;
 }
 
+#games {
+	width: 900px;
+	height: 25px;
+	margin-left: 10px;
+}
+
+.p1 {
+	margin-left: 10px;
+}
+
+.inputcircles {
+	margin-left: 10px;
+	
+}
+
+
+.p2 {
+	margin-left: 10px;
+}
+
 
 /* The footer is fixed to the bottom of the page */
 

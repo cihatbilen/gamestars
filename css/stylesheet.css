@@ -162,11 +162,10 @@ header span{
 	
 }
 
-
 .p2 {
 	margin-left: 10px;
-
-  .items{
+}
+.items{
   display:none;
   position: absolute;
 }

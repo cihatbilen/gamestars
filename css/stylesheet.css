@@ -157,9 +157,12 @@ header span{
 }
 
 .inputcircles {
-	margin-left: 10px;
-
-
+	/* margin-left: 10px; */
+	display: flex;
+	justify-content: space-evenly;
+	width: 80vw;
+	margin-left: 10vw;
+	
 }
 
 .p2 {

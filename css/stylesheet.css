@@ -177,16 +177,22 @@ header span{
   width: 500px;
 }
 
+.plekmerch{
+  float: left;
+}
+
+
 .items:hover{
   background-color: red;
 }
 
 
 .p2 {
-	margin-left: 10px;
+
 }
 .items{
-  color: yellow;
+  font-size: 50px;
+  color: white;
   text-align: center;
   margin-top: 250px;
   width: 500px;
@@ -199,6 +205,92 @@ header span{
   text-align: center;
   font-size: 25px;
 }
+
+/* dropdown voorraad */
+
+
+.menubalk {
+    height: auto;
+    list-style: none;
+    margin-left: 0%;
+    color: darkred;
+    border-width: 1px;
+    margin-top: 14%;
+    font-size: 40px;
+}
+
+.menubalk li{
+    padding: 1vw;
+}
+
+.menubalk ul{
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+li a:hover, .begrippen:hover .dropdown-inhoud{
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+li.dropdown {
+
+}
+
+li a, .dropdown-inhoud{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-inhoud {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    z-index: 1;
+}
+
+.dropdown-inhoud a {
+    color: black;
+    padding: 1px 1.6px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 0.4em;
+}
+
+  .dropdown-inhoud a:hover {
+    background-color: rgba(177, 177, 177, 0.582)
+  }
+
+  .dropdown:hover .dropdown-inhoud {
+    display: block;}
+
+  #plaatssize1{
+
+  }
+
+  #plaatssize2{
+
+  }
+
+  #plaatssize3{
+    position: absolute;
+    right: 150px;
+    top: 850px;
+  }
+
+  #plaatssize4{
+    position: absolute;
+    top: 850px;
+  }
+
+
+
+
+
 
 /* The footer is fixed to the bottom of the page */
 

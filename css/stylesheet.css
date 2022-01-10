@@ -91,6 +91,29 @@ float: left;
 }
 /* /header */
 
+/* rating */
+
+
+table{
+  border: 5px solid black;
+}
+td,th ,tr {
+  border: 2px solid black;
+}
+
+.tabel1{
+  margin-left: 0.5%;
+}
+
+.tabel2{
+position: absolute;
+top: 114px;
+left: 525px;
+}
+
+
+/* rating */
+
 /* revieuw */
 .reviews1{
   border-style: solid;

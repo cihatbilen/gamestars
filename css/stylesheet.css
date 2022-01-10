@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-*{
+body{
   margin:0;
   padding: 0;
 }
@@ -125,17 +125,18 @@ header span{
 .merchg{
   width: 500px;
   height: 600px;
-  margin-left: 150px;
+  position: absolute;
+  /* margin-left: 150px; */
 }
 
 .regel1 {
 	padding: 15px;
-	
+
 }
 
 .regel2 {
 	padding: 15px;
-	
+
 }
 
 .regel3 {
@@ -162,13 +163,45 @@ header span{
 	justify-content: space-evenly;
 	width: 40vw;
 	
-	
 }
+
+.reviewbalk {
+	padding: 15px;
+    
+}
+
+.voorwaarden {
+
+	
+	margin-left: 10px;
+}
+
+
+#merc{
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+}
+
+#merc article{
+  height: 600px;
+  width: 500px;
+}
+
+.items:hover{
+  background-color: red;
+}
+
 
 .p2 {
 	margin-left: 10px;
 }
 .items{
+  color: yellow;
+  text-align: center;
+  margin-top: 250px;
+  width: 500px;
+  height: 600px;
   display:none;
   position: absolute;
 }

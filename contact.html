@@ -14,6 +14,7 @@
   </head>
   <body>
 
+
     <article >
       <div class="topnav">
         <a class="logo" > <img id="logo1" src="img/gamestarslogo.png" alt="gamestars"> </a>
@@ -25,6 +26,55 @@
         <a href="index.html">home</a>
       </div>
     </article>
+
+
+
+    <link href="contact-form.css" rel="stylesheet">
+
+    <div class="body">
+
+        <div id="form">
+        <h3 class="h3">Contact us</h3>
+
+        <form id="form-id" class="form-class" method="post" action="contact-form-process.php">
+
+            <div class="form-group">
+                <label for="Name" class="fcf-label">Your full name</label>
+                <div class="input-group">
+                    <input type="text" id="Name" name="Name" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Email" class="label">Your email address</label>
+                <div class="input-group">
+                    <input type="email" id="Email" name="Email" class="form-control" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="Message" class="label">Your message</label>
+                <div class="input-group">
+                    <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="button" class="btn btn-primary btn-lg btn-block">Submit</button>
+            </div>
+
+
+        </form>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
     <article class="ftop">
         <footer class="footer-distributed">
 
@@ -45,8 +95,7 @@
                   |
                   <a href="contact.html">contact</a>
         				</p>
-
-        				<p class="footer-company-name">copyricht © gamestars 2019 </p>
+          			<p class="footer-company-name">copyricht © gamestars 2019 </p>
         			</article>
 
         			<article class="footer-center">
@@ -82,5 +131,9 @@
 
           <script src="js/slide.js" charset="utf-8"></script>
           </article>
+
+          <?php
+          include ("contact.php");
+          ?>
   </body>
 </html>

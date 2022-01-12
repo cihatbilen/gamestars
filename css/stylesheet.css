@@ -119,12 +119,29 @@ left: 525px;
   border-style: solid;
   border-width: 1px;
   border-left: -100px;
+  
 
 }
 
 .p1{
 
 margin-left: 170vh;
+}
+
+.memoji4{
+    height: 45px;
+}
+
+.memoji1{
+  height: 45px;
+}
+
+.memoji2{
+  height: 45px;
+}
+
+.memoji3{
+  height: 45px;
 }
 
 .reviews2 {

@@ -114,6 +114,13 @@ top: 114px;
 left: 525px;
 }
 
+.sponsor{
+  position: absolute;
+  top: 300px;
+  left: 525px;
+  height: 345px;
+  width: 575px;
+}
 
 /* rating */
 
@@ -962,7 +969,15 @@ footer{
     border-width: 1px;
     border-left: -100px;
   }
-
+  .sponsor{
+    border-style: solid;
+    border-width: 2px;
+    position: absolute;
+    top: 1000px;
+    left: 325px;
+    height: 200px;
+    width: 325px;
+  }
 
   .reviewgroote{
    width: 97%;

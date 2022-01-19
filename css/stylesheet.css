@@ -505,8 +505,11 @@ li a, .dropdown-inhoud{
   }
 
   video{
-    width:375;
-    height:150;
+    width:375px;
+    height:175px;
+  }
+  .video1{
+
   }
 
   .pleklinks{

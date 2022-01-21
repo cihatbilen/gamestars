@@ -10,21 +10,25 @@
     <meta name="author" content="">
     <meta name="Keywords" content="">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
   </head>
   <body>
 
-    <article >
-      <div class="topnav">
-        <a class="logo" > <img id="logo1" src="img/gamestarslogo.png" alt="gamestars"> </a>
-        <a href="contact.html">contact</a>
-        <a class="active" href="aboutus.html"  >about us</a>
-        <a href="merch.html">merch</a>
-        <a href="review.html">review</a>
-        <a href="rating.html">rating</a>
-        <a href="index.html">home</a>
-      </div>
-    </article>
+    <div class="mobile-container">
+        <div class="topnav">
+          <a  class="active"> <img id="logo1" src="img/gamestarslogo.png" alt="gamestars"></a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="review.html">Review</a>
+            <a href="rating.html">Rating</a>
+            <a href="merch.html">Merch</a>
+            <a href="aboutus.html" class="active">About us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <a src="js/slide.js"  class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
 
 
 
@@ -142,7 +146,7 @@
                 </main>
         			</article>
         		</footer>
-
+          <script src="js/main.js" charset="utf-8"></script>
           <script src="js/slide.js" charset="utf-8"></script>
           </article>
   </body>

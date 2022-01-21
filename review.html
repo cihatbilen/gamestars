@@ -10,21 +10,25 @@
     <meta name="author" content="">
     <meta name="Keywords" content="">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
   </head>
   <body>
 
-    <article >
-      <div class="topnav">
-        <a class="logo" > <img id="logo1" src="img/gamestarslogo.png" alt="gamestars"> </a>
-        <a href="contact.html">contact</a>
-        <a href="aboutus.html">about us</a>
-        <a href="merch.html">merch</a>
-        <a class="active" href="review.html">review</a>
-        <a href="rating.html">rating</a>
-        <a href="index.html">home</a>
-      </div>
-    </article>
+    <div class="mobile-container">
+        <div class="topnav">
+          <a class="active"> <img id="logo1" src="img/gamestarslogo.png" alt="gamestars"></a>
+          <div id="myLinks">
+            <a href="index.html">Home</a>
+            <a href="review.html" class="active">Review</a>
+            <a href="rating.html">Rating</a>
+            <a href="merch.html">Merch</a>
+            <a href="aboutus.html">About us</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
      <section>
       <article class="reviews1">
         <h1 class="h1">Gta 5</h1>
@@ -272,7 +276,7 @@
               </main>
             </article>
           </footer>
-
+          <script src="js/main.js" charset="utf-8"></script>
         </article>
 
 

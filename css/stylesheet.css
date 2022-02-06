@@ -230,7 +230,7 @@ td,th ,tr {
 
 
 .ftop{
-padding-top: -20%;
+/* padding-top: -20%; */
 }
 
 html{
@@ -296,9 +296,8 @@ header span{
 /* merch */
 
 .merchg{
-  width: 500px;
-  height: 600px;
-  position: absolute;
+  width: 300px;
+  height: 400px;
 }
 
 #games {
@@ -324,8 +323,6 @@ header span{
 }
 
 .voorwaarden {
-
-
 	margin-left: 10px;
 }
 
@@ -357,10 +354,11 @@ header span{
   font-size: 50px;
   color: white;
   text-align: center;
-  margin-top: 250px;
-  width: 500px;
-  height: 600px;
-  display:none;
+  margin-top: -25%;
+  /* width: 500px;
+  height: 600px; */
+  display: none;
+  margin-left: 13%;
   position: absolute;
 }
 
@@ -458,37 +456,41 @@ li a, .dropdown-inhoud{
   }
   /*/ dropdown */
   #button1 {
-      width: 7.5%;
-      position: absolute;
-      left:525px;
+      /* width: 7.5%; */
+      /* position: absolute; */
+      /* left:525px;
       top: 225px;
-      z-index: 1;
+      z-index: 1; */
   }
 
   #button2 {
-      width: 7.5%;
-      position: absolute;
-    left: 675px;
+      /* width: 7.5%; */
+      /* position: absolute; */
+      /* left: 675px;
       top: 225px;
-      z-index: 1;
+      z-index: 1; */
   }
 
   #button3 {
-      width: 7.5%;
+    /*  width: 7.5%;
       position: absolute;
       left: 525px;
       top: 950px;
-      z-index: 1;
+      z-index: 1;*/
   }
 
   #button4 {
-      width: 7.5%;
+    /*  width: 7.5%;
       position: absolute;
       left: 725px;
       top: 950px;
-      z-index: 1;
+      z-index: 1;*/
   }
 
+.shirt-section{
+  display: flex;
+  justify-content: space-between;
+}
 
 /*/ merch */
 
@@ -1156,9 +1158,7 @@ footer{
   /* merch */
 
   .merchg{
-    width: 350px;
-    height: 500px;
-    position: absolute;
+    width: 200px;
   }
 
   #games {
@@ -1197,8 +1197,8 @@ footer{
     color: white;
     text-align: center;
     margin-top: 250px;
-    width: 500px;
-    height: 600px;
+    width: 200px;
+    height: 350px;
     display:none;
     position: absolute;
   }
@@ -1269,65 +1269,66 @@ footer{
     }
 
     #plaatssize1{
-      position: absolute;
-      left:185px;
-      top: 350px;
-      z-index: 1;
+    z-index: 2;
     }
 
     #plaatssize2{
       position: absolute;
-      left:640px;
-      top: 350px;
-      z-index: 1;
+      left: 650px;
+      top: 125px;
+      z-index: 2;
     }
 
     #plaatssize3{
       position: absolute;
-      left:185px;
-      top: 975px;
-      z-index: 1;
+      left: 210px;
+      top: 1000px;
+      z-index: 2;
     }
 
     #plaatssize4{
       position: absolute;
-      left:640px;
-      top: 975px;
-      z-index: 1;
+      left: 500px;
+      top: 1000px;
+      z-index: 2;
     }
     /*/ dropdown */
     #button1 {
-        width: 10%;
-        position: absolute;
-        left:225px;
-        top: 475px;
-        z-index: 1;
+        /* width: 7.5%; */
+        /* position: absolute; */
+        /* left:525px;
+        top: 225px;
+        z-index: 1; */
     }
 
     #button2 {
-        width: 10%;
-        position: absolute;
-        left:675px;
-        top: 475px;
-        z-index: 1;
+        /* width: 7.5%; */
+        /* position: absolute; */
+        /* left: 675px;
+        top: 225px;
+        z-index: 1; */
     }
 
     #button3 {
-        width: 10%;
+      /*  width: 7.5%;
         position: absolute;
-        left:225px;
-        top: 1050px;
-        z-index: 1;
+        left: 525px;
+        top: 950px;
+        z-index: 1;*/
     }
 
     #button4 {
-        width: 10%;
+      /*  width: 7.5%;
         position: absolute;
-        left:675px;
-        top: 1050px;
-        z-index: 1;
+        left: 725px;
+        top: 950px;
+        z-index: 1;*/
     }
 
+  .shirt-section{
+    display: flex;
+    justify-content: space-around ;
+  }
 
   /*/ merch */
 
@@ -1519,7 +1520,6 @@ footer{
   /*  footer */
 
   footer{
-
   	bottom: 0;
     background-color: black;
   }
@@ -1728,65 +1728,56 @@ video{
 
 }
 .merchg{
-  width: 300px;
-  height: 400px;
-  position: absolute;
+  width: 100px;
+  height: 200px;
 }
 #plaatssize1{
-  position: absolute;
   top: 425px;
   left: 70px;
   z-index: 1;
 }
 
 #plaatssize2{
-  position: absolute;
   left: 70px;
   top: 1000px;
   z-index: 1;
 }
 
 #plaatssize3{
-  position: absolute;
   left: 70px;
   top: 1650px;
   z-index: 1;
 }
 
 #plaatssize4{
-  position: absolute;
   left: 70px;
   top: 2250px;
   z-index: 1;
 }
 
 #button1 {
-    width: 20%;
-    position: absolute;
+    width: 60%;
     left: 110px;
     top: 550px;
     z-index: 1;
 }
 
 #button2 {
-    width: 20%;
-    position: absolute;
+    width: 60%;
     left: 110px;
     top: 1125px;
     z-index: 1;
 }
 
 #button3 {
-    width: 20%;
-    position: absolute;
+    width: 60%;
     left: 110px;
     top: 1725px;
     z-index: 1;
 }
 
 #button4 {
-    width: 20%;
-    position: absolute;
+    width: 60%;
     left: 110px;
     top: 2325px;
     z-index: 1;
